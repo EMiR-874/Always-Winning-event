@@ -1,0 +1,617 @@
+/* --------------------------------------------------1440 */
+
+@media (max-width: 1440px) {
+  .with-who {
+    padding: 85px 0;
+  }
+}
+
+/* --------------------------------------------------1144 */
+
+@media (max-width: 1144px) {
+  .welcome {
+    background: url(images/backgrounds/bg-1.png) right / cover no-repeat;
+    height: 97vh;
+  }
+  nav .logo {
+    gap: 10px;
+  }
+  nav a {
+    font-size: 1.6rem;
+  }
+  nav button {
+    height: 45px;
+    width: 200px;
+  }
+
+  .when h1 {
+    font-size: 7rem;
+    margin-bottom: 5%;
+  }
+  .when p {
+    font-size: 1.2rem;
+    width: 60%;
+  }
+
+  .short-info-wrapper h3 {
+    font-size: 1.6rem;
+  }
+
+  .host-sponsors h1 {
+    font-size: 7rem;
+  }
+
+  .hsiw {
+    width: 250px;
+    height: 250px;
+  }
+  .h-s-1 img:nth-child(2),
+  .h-s-2 img,
+  .h-s-3 img {
+    width: 100%;
+  }
+  .h-s-sl img {
+    width: 150px;
+  }
+
+  .p-p-image-wrapper {
+    gap: 30px;
+  }
+  .p-p-image img:not(.spinner):not(.spinner-logo) {
+    width: 250px;
+  }
+  .spinner {
+    top: -45%;
+    left: 50%;
+  }
+
+  .exclusive-wrapper h1 {
+    font-size: 7rem;
+  }
+  .exclusive-wrapper h2 {
+    width: 70%;
+  }
+
+  .venue-wrapper h2 {
+    font-size: 3.3rem;
+  }
+  .venue-des {
+    width: 80%;
+  }
+
+  .w-a-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0 auto;
+    width: 50%;
+  }
+  .card {
+    height: 350px;
+  }
+
+  .agenda {
+    background: url("images/backgrounds/bg-8.jpg") center / cover no-repeat;
+  }
+  .a-text-wrapper {
+    left: 25%;
+  }
+  .a-text-wrapper p:last-of-type {
+    margin-bottom: 7%;
+  }
+
+  .tg-wrapper p {
+    font-size: 1.3rem;
+    padding-bottom: 2%;
+  }
+}
+
+/* --------------------------------------------------1024 */
+
+@media (max-width: 1024px) {
+  .when-content-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .when p {
+    width: 100%;
+  }
+
+  .with-who {
+    background: url(images/backgrounds/bg-7.jpg) right / cover no-repeat;
+  }
+  .w-h-left {
+    width: 100%;
+    padding: 0;
+    transform: translate(0);
+  }
+  .w-h-left h1 {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .w-h-left p {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* --------------------------------------------------1005 */
+
+@media (max-width: 1005px) {
+  nav .logo {
+    justify-content: space-around;
+    width: 100%;
+  }
+  .btn-hidden {
+    display: block;
+  }
+  nav a {
+    display: none;
+  }
+  .contact-btn {
+    display: none;
+  }
+
+  .exclusive-wrapper a {
+    padding: 13px 90px;
+  }
+
+  .a-g-wrapper a {
+    padding: 13px 90px;
+  }
+
+  .tg-wrapper a {
+    padding: 13px 90px;
+  }
+
+  .s-s-wrapper a {
+    padding: 13px 90px;
+  }
+
+  .f-wrapper h2 {
+    line-height: 90%;
+  }
+
+  .media-wrapper h3 {
+    left: 0;
+  }
+
+  .media-img-wrapper {
+    width: 98%;
+  }
+
+  .contact-wrapper h3 {
+    left: 0;
+  }
+
+  .contact-wrapper p,
+  .contact-wrapper a {
+    text-indent: 2%;
+  }
+  .contact-social-wrapper {
+    left: 2%;
+  }
+}
+
+/* --------------------------------------------------971 */
+
+@media (max-width: 971px) {
+  .br-when {
+    display: none;
+  }
+
+  .with-who {
+    background: none;
+    background-color: var(--cBlack);
+  }
+  .w-h-left h1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+/* --------------------------------------------------890 */
+
+@media (max-width: 890px) {
+  .p-p-image-wrapper {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .pp3 .spinner,
+  .pp3 .spinner-logo {
+    display: none;
+  }
+  .pp2 .spinner,
+  .pp2 .spinner-logo {
+    display: block;
+  }
+  .pp2 .spinner {
+    left: 57%;
+    top: -40%;
+  }
+  .p-p-image img:not(.spinner):not(.spinner-logo) {
+    width: 300px;
+  }
+
+  .venue-wrapper h2 {
+    font-size: 2.5rem;
+  }
+  .venue-des {
+    font-size: 1rem;
+  }
+
+  .a-text-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+    text-align: center;
+  }
+
+  .exclusive-wrapper a,
+  .a-g-wrapper a,
+  .tg-wrapper a {
+    padding: 17px 13px;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------768 */
+
+@media (max-width: 768px) {
+  .short-info-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .short-info-wrapper h3 {
+    font-size: 2rem;
+  }
+  .br-party {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------700 */
+
+@media (max-width: 700px) {
+  .welcome {
+    background: url(images/backgrounds/bg-1.png) right 10% top / cover no-repeat;
+  }
+
+  .party-photo {
+    background: url("images/backgrounds/bg-4.jpg") left 25% top / cover no-repeat;
+  }
+  .pp2 .spinner,
+  .pp2 .spinner-logo {
+    display: none;
+  }
+
+  .venue-wrapper h2 {
+    font-size: 3rem;
+    width: 70%;
+    text-align: center;
+  }
+
+  .w-a-card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 100%;
+  }
+  .card {
+    height: 350px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .with-who {
+    padding: 0;
+  }
+}
+
+/* --------------------------------------------------600 */
+
+@media (max-width: 600px) {
+  .welcome {
+    background: url(images/backgrounds/bg-1.png) right 15% top / cover no-repeat;
+  }
+
+  .party-photo {
+    background: url("images/backgrounds/bg-4.jpg") left 40% top / cover no-repeat;
+  }
+  .pp1 .spinner,
+  .pp1 .spinner-logo {
+    display: block;
+  }
+  .pp1 .spinner {
+    top: -35%;
+    left: 60%;
+  }
+  .p-p-image-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .p-p-image img:not(.spinner):not(.spinner-logo) {
+    width: 350px;
+  }
+
+  .exclusive-wrapper h1 {
+    font-size: 6rem;
+  }
+  .exclusive-wrapper h2 {
+    font-size: 1.15rem;
+  }
+
+  .venue-wrapper h2 {
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  .w-a-card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 100%;
+  }
+  .card {
+    height: 350px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .with-who {
+    padding: 0;
+  }
+
+  .tg-wrapper p {
+    width: 90%;
+    padding-bottom: 5%;
+  }
+
+  .media-img-wrapper {
+    gap: 20px;
+  }
+
+  .contact-wrapper a {
+    padding-left: 2%;
+  }
+}
+
+/* --------------------------------------------------500 */
+
+@media (max-width: 500px) {
+  nav .logo {
+    width: 95%;
+  }
+  nav img {
+    height: 7cap;
+  }
+  nav p {
+    display: none;
+  }
+
+  .welcome {
+    background: url(images/backgrounds/bg-1.png) right 14% top / cover no-repeat;
+    zoom: 80%;
+  }
+
+  .when h1 {
+    font-size: 6rem;
+  }
+
+  .host-sponsors h1 {
+    font-size: 5rem;
+  }
+
+  .party-photo h1 {
+    font-size: 6rem;
+  }
+
+  .a-text-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+    text-align: center;
+  }
+  .exclusive-wrapper a,
+  .a-g-wrapper a {
+    padding: 17px 13px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .w-h-left h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .secure-spot h1 {
+    font-size: 7rem;
+  }
+  .secure-spot h2 {
+    font-size: 1.25rem;
+  }
+  .s-s-wrapper {
+    padding-bottom: 10%;
+  }
+}
+
+/* --------------------------------------------------425 */
+
+@media (max-width: 425px) {
+  .welcome {
+    background: url(images/backgrounds/bg-1.png) right 20% top / cover no-repeat;
+    zoom: 100%;
+    /* FIXAT */
+  }
+
+  .pp1 .spinner-logo {
+    height: 9cap;
+  }
+  .pp1 .spinner {
+    top: -35%;
+    left: 62.5%;
+    height: 20cap;
+  }
+  .p-p-image img:not(.spinner):not(.spinner-logo) {
+    width: 300px;
+  }
+  .p-p-image h4:nth-child(4) {
+    font-size: 2.2rem;
+  }
+
+  .tg-link {
+    padding: 20% 0;
+    width: 100%;
+  }
+  .tg-link a {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+  .s-s-link a {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+
+/* --------------------------------------------------375 */
+
+@media (max-width: 375px) {
+  .when h1 {
+    font-size: 5rem;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .when p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .when-content-wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .venue-wrapper h1 {
+    text-align: center;
+    font-size: 6rem;
+  }
+  .venue-wrapper h2 {
+    font-size: xx-large;
+    margin: 7.5% 0;
+  }
+
+  .with-who h1 {
+    font-size: 7rem;
+  }
+  .with-who p {
+    font-size: 1.3rem;
+  }
+
+  .agenda h1 {
+    font-size: 6rem;
+  }
+  .agenda p:last-of-type {
+    padding-bottom: 35%;
+  }
+  .s-s-link a {
+    width: 100%;
+    font-size: 2rem;
+    padding: 20px 70px;
+  }
+  .contact-wrapper p {
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------350 */
+
+@media (max-width: 350px) {
+  .with-who h1 {
+    font-size: 6rem;
+  }
+  .with-who p {
+    font-size: 1.2rem;
+    width: 95%;
+  }
+
+  .tg-wrapper p {
+    font-size: 1.2rem;
+  }
+
+  .card h1 {
+    font-size: 2.8rem;
+    min-height: fit-content;
+  }
+
+  .f-wrapper h2 {
+    line-height: 90%;
+  }
+
+  .s-s-link a {
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px 50px;
+  }
+  .media-img-wrapper {
+    gap: 10px;
+  }
+
+  .contact-social-wrapper {
+    gap: 10px;
+  }
+}
+
+/* --------------------------------------------------320 */
+
+@media (max-width: 320px) {
+  .why-attend {
+    padding-bottom: 30%;
+  }
+  #f320 {
+    font-size: 5rem;
+  }
+
+  .with-who {
+    text-align: center;
+  }
+  .with-who h1 {
+    font-size: 5.5rem;
+  }
+  .with-who p {
+    font-size: 1rem;
+  }
+
+  .agenda h1:first-of-type {
+    font-size: 5rem;
+  }
+  .agenda p {
+    font-size: 2.5rem;
+  }
+  .agenda a {
+    font-size: 2.3rem;
+    width: 90%;
+  }
+
+  .media-img-wrapper .media-img img {
+    height: 95px;
+  }
+
+  .secure-spot {
+    padding-top: 25%;
+  }
+  .secure-spot h1 {
+    font-size: 5.5rem;
+  }
+  .secure-spot h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-wrapper a {
+    font-size: 1.2rem;
+  }
+}
